@@ -5,7 +5,6 @@ import Balancer from 'react-wrap-balancer'
 import { SparkleIcon, UserSecurityIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
 function Developer() {
   return (
     <span className="group">
@@ -80,7 +79,7 @@ export function Headline() {
       >
         <Balancer>
           我是 Jason，
-          <PeekabooLink href={`${SITE_URL}`}>Voe</PeekabooLink>
+          <PeekabooLink href="/projects">VoeStudio</PeekabooLink>
           开发者。
           我热爱开发，创新，享受生活，以及在未知领域中探索。
         </Balancer>
