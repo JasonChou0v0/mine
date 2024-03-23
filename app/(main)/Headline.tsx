@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
+      <span className="font-mono">&lt;</span>Jason
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
+      <span>开发者</span>
     </span>
   )
 }
@@ -81,7 +81,7 @@ export function Headline() {
       >
         <Balancer>
           我是 Jason，
-          <PeekabooLink href="/projects">VoeStudio</PeekabooLink>
+          <PeekabooLink href="https://voe.cool/projects">VoeStudio</PeekabooLink>
           开发者。
           我热爱开发，创新，享受生活，以及在未知领域中探索。
         </Balancer>

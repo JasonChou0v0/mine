@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Jason,Voe,开发者,细节控,创新',
+  keywords: 'Jason,碎碎念,Voe,开发者,细节控',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
